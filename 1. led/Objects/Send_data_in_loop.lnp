@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\Send_data_in_loop.obj" 
+TO ".\Objects\Send_data_in_loop" 
+PRINT(".\Listings\Send_data_in_loop.m51") RAMSIZE(256) 

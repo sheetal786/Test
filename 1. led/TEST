@@ -1,0 +1,27 @@
+#include<reg51.h>
+
+P0 = 0x00;
+
+void main()
+{
+
+while(1)
+{
+P0 = 0xAA;
+
+delay (1000);
+
+P0 = 0x55;
+
+delay (1000);
+}
+}	
+
+void delay()
+{
+	int i, j;
+	for (i=0;i<1000;i++)
+	{
+		for (j=0;j<1000;j++);
+	}
+}
